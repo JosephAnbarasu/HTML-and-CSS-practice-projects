@@ -1,0 +1,284 @@
+
+
+body{
+    font-family:'Poppins',sans-serif;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1)),url(Images/pexels-lorenzo-pacifico-629142.jpg);
+    background-size: cover;
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat; 
+    z-index: -1;
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    display:inline-block;
+    background-color: transparent;
+    backdrop-filter:blur(5px);
+    margin-top:0;
+    
+}
+
+.nav-bar li{
+    display:inline-block;
+    padding:20px;   
+}
+
+
+.hero-text{
+    position: relative; 
+    margin-left:20px;  
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-text p{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: left;
+    text-align: center;
+}
+
+.hero-text h2{
+    font-size: 50px;
+}
+
+button{
+    border:none;
+    color:white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding:20px;
+    border-radius: 2px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    backdrop-filter: blur(2px);
+    
+}
+
+.container{
+    display:flex;
+    margin-top:50px;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.category-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+.category-box .box-1 img {
+    position:relative;
+}
+
+.category-box .box-1 h3{
+    position:absolute;
+    color:white;
+    top:140px;
+    left:150px;    
+}
+
+.category-box .box-2 img {
+    position:relative;
+}
+
+.category-box .box-2 h3{
+    position:absolute;
+    color:white;
+    top:140px;
+    left:470px;    
+}
+
+.category-box .box-3 img {
+    position:relative;
+}
+
+.category-box .box-3 h3{
+    position:absolute;
+    color:white;
+    top:140px;
+    left:790px;    
+}
+
+.category-box .box-4 img {
+    position:relative;
+}
+
+.category-box .box-4 h3{
+    position:absolute;
+    color:white;
+    top:140px;
+    left:1110px;    
+}
+
+.text-box{
+    color:white;
+    display:flex;
+    justify-content: center;
+    gap:0px;
+    margin-top: 100px;
+}
+
+main {
+    background-color: black;
+}
+
+.text-box img{
+    width:400px;
+    height:auto;
+}
+
+.text-box .text{
+    width:400px;
+    background-color: black;
+    padding:25px;    
+}
+
+.popular h1 {
+    color:white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.popular h3,p{
+    color:white;
+}
+
+
+
+.popular{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:10px;
+    background-color:black;
+    
+}
+
+.card-1,.card-2,.card-3{
+    background-color:black;
+    padding:45px;
+}
+
+.card-1-text,.card-2-text,.card-3-text{
+    padding:10px;
+    margin-top:0px;
+    line-height: 10px;
+}
+
+.explore{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)),url(Images/pexels-lina-kivaka-3989821.jpg);
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+    display: flex;
+    align-items:flex-end;
+
+
+}
+
+
+.container-text{
+    color:white;
+    text-align: left;
+    width:400px;
+    margin-left: 100px;
+}
+.container-text p{
+    width:700px;
+    color:lightslategrey;
+    font-size: 15px;
+}
+
+/* .profile img{
+    border-radius:50%;
+}
+
+.profile .name p{
+    color:white;
+    
+} */
+
+.us{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.reg-text {
+    color:white;
+    padding:50px;
+    text-align:left;
+    width:300px;
+    background-color:black;
+    
+    
+    
+}
+
+.register input{
+    display:flex;
+    width:300px;
+    padding:20px;
+    justify-content: center;
+    background-color:rgba(100,100,100,0.2) ;
+    border:none;
+    
+    
+}
+
+.btn{
+    display: flex;
+    width:300px;
+    padding:20px;  
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+footer nav a{
+    text-decoration: none;
+    color:slategray
+
+}
+
+footer nav ul{
+    display:block;
+    list-style-type: none;
+    color:white;
+}
+
+.footer-text{
+    color:white;
+    
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    background-color:rgba(100,100,100,0.3);
+    padding:100px;
+}
